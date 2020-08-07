@@ -1,0 +1,90 @@
+.Logo {
+  width: 250px;
+}
+
+.Logo:hover {
+  width: 253px;
+  height: 57px;
+}
+
+.Logo:hover,
+.Logo:focus {
+  opacity: .6;
+}
+@media (max-width: 800px) {
+  .Logo {
+    max-width: 130px;
+  }
+}
+  
+.Menu {
+  width: 100%;
+  height: 94px;
+  z-index: 100;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  background: #141414;
+  border-bottom: 3px solid #727272;
+}
+body {
+  --bodyPaddingTop: 94px;
+  padding-top: var(--bodyPaddingTop);
+}
+@media (max-width: 800px) {
+  .Menu {
+    height: 50px;
+    justify-content: center;
+  }
+  body {
+    --bodyPaddingTop: 40px;
+    padding-top: var(--bodyPaddingTop);
+  }
+}
+
+.ButtonLink {
+  color: var(--white);
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 14px 21px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: opacity .3s;
+}
+
+.ButtonLink:hover {
+  padding: 17px 26px;
+}
+
+.ButtonLink:hover,
+.ButtonLink:focus {
+  opacity: .5;
+}
+
+@media (max-width: 800px) {
+  a.ButtonLink {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #141414;
+    border-radius: 0;
+    border: 1;
+    text-align: center;
+  }
+}
