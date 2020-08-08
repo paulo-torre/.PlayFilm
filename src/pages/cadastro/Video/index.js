@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function CadastroVideo() {
   return (
-    <PageDefault>
+    <PageDefault> 
       <h1>Cadastro de vídeo</h1>
 
 
