@@ -2,11 +2,6 @@
   width: 250px;
 }
 
-.Logo:hover {
-  width: 253px;
-  height: 57px;
-}
-
 .Logo:hover,
 .Logo:focus {
   opacity: .6;
@@ -33,7 +28,7 @@
   padding-left: 5%;
   padding-right: 5%;
 
-  background: #141414;
+  background: rgb(10, 10, 10);
   border-bottom: 3px solid #727272;
 }
 body {
@@ -68,12 +63,9 @@ body {
 }
 
 .ButtonLink:hover {
-  padding: 17px 26px;
-}
-
-.ButtonLink:hover,
-.ButtonLink:focus {
-  opacity: .5;
+  background: #e2e2ee;
+  color: #000000;  
+  border: #000000;
 }
 
 @media (max-width: 800px) {
